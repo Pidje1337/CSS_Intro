@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Motserrat:wght300;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+font-family:'Roboto', sans-serif;
+}
+
+html {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.col {
+    border: 2px solid rgb(68, 0, 255);
+    height: 70px;
+    flex-grow: 1;
+}
+
+.row {
+    --gap: .5rem;
+    gap: var(--gap);
+    display: flex;
+}
+
+.col-3 {
+    width: calc(100% * 3 / 12);
+}
+
+.col-4 {
+    width: calc(100% * 4 /12);
+}
+
+.col-5 {
+    width: calc(100% *5/12);
+}

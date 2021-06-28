@@ -1,0 +1,63 @@
+.flex-element {
+    --line-height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 48px;
+    /* flex-basis: 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*text-align: center;
+    line-height: var(--line-height);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    /* flex-wrap: wrap; */
+    height: 300px;
+    align-items: stretch;
+    /* align-content: scratch; */
+}
+
+/* @media (max-width: 650px) 
+
+{
+    .flex-container 
+    
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+.shrink_1  {
+    flex-shrink: 1;
+}
+
+.shrink_2  {
+    flex-shrink: 2;
+}
+
+.shrink_3 {
+    flex-shrink: 3;
+}
+
+.grow_1 {
+    flex-grow: 1;
+}
+
+.grow_2 {
+    flex-grow: 2;
+}
+
+.grow_3 {
+    flex-grow: 3;
+}
